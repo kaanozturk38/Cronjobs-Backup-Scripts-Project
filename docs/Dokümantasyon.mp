@@ -1,6 +1,3 @@
-Önceki versiyona göre çok daha kurumsal, "Sistem Yönetim Kılavuzu" (System Administration Manual) standartlarında ve akademik sunuma uygun derinlikte bir **`docs/documentation.md`** hazırladım.
-
-Bu döküman, projenin sadece bir ödev değil, bir **"ürün"** gibi algılanmasını sağlayacaktır.
 
 ---
 
@@ -81,11 +78,3 @@ Sistem, yedekleme tamamlandığında otomatik olarak iki aşamalı bildirim gön
 
 * **Data Privacy:** Sistem, yedeklenen dosyaları sunucu üzerinde kalıcı olarak depolamaz (Opsiyonel olarak `os.remove()` aktif edilebilir).
 * **Validation:** Tüm girdiler sunucu tarafında (Backend) `cron_descriptor` ve `try-except` blokları ile sanitize edilmektedir.
-
----
-
-### Projeye Katkısı Nedir?
-
-Bu döküman, hocana projenin **hata yönetimini (Troubleshooting)** düşündüğünü, **güvenlik (Security)** kaygıların olduğunu ve **SSE** gibi modern teknolojileri neden kullandığını kanıtlar.
-
-**Specs dosyasını da bu ağırlıkta tekrar yazmamı ister misin, yoksa bu Docs dosyası senin için yeterli mi?**
