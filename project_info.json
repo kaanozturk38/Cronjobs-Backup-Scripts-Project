@@ -1,0 +1,21 @@
+{
+  "projectName": "Cronjob & Backup Script Project",
+  "category": "Automation & Scheduling",
+  "author": "Mevlit Kaan Öztürk",
+  "version": "1.0.0",
+  "description": "A script that performs automated backups on scheduled intervals using cron.",
+  "features": [
+    "Automatic backup of specified directories",
+    "Scheduling capability via cronjob",
+    "Optional compression of backup files",
+    "Optional disk space and retention control"
+  ],
+  "requirements": {
+    "operatingSystem": "Ubuntu 22.04 or later",
+    "scriptLanguage": "Bash or Python",
+    "tools": [
+      "cron",
+      "tar",
+      "rsync"
+    ]
+  }
