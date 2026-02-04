@@ -1,6 +1,4 @@
-# QLineSec
 
----
 
 # 🚀 Linux Yedekleme Yönetim Paneli (Cron-Based Backup Manager)
 
